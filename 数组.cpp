@@ -8,6 +8,8 @@ int main(){
 	
 	// int i = 4;
 	// double a3[i]  //error, i必须是常量
-	 
+
+	//初始化
+	int a3[4] = {1,2,3,4};
 }
  
