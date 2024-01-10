@@ -14,3 +14,10 @@ class Solution:
             s = s.replace("AB", "")
             s = s.replace("CD", "")
         return len(s)
+"""
+string.replace(old, new[, count])
+old: 要被替换的子字符串。
+new: 用于替换的新字符串。
+count（可选）: 指定替换的次数。如果提供了 count 参数，则只替换前 count 次出现的子字符串
+print str.replace("is", "was", 3);
+"""
